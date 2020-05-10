@@ -26,5 +26,5 @@ app.post("/encrypt", function(req,res){
 
 //CREATE THE WEB SERVER AT SPECIFIED PORT
 app.listen(process.env.PORT,process.env.IP,function(){
-   console.log("Server started"); 
+   console.log("Server started on "+process.env.PORT+" and "+process.env.IP); 
 });
